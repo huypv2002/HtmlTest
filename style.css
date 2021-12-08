@@ -93,6 +93,11 @@ button {
 button:hover {
 	background-color: var(--pink-color);
 }
-@media screen and (min-width: 240px){
-    
+@media only screen and (max-width: 600px){
+    .card{
+            display: block;
+    }
+    .card{
+        width: 100%;
+    }
 }
