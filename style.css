@@ -93,16 +93,4 @@ button {
 button:hover {
 	background-color: var(--pink-color);
 }
-@media only screen and (max-width: 740px){
-    .card{
-            display: block;
-    }
-    .card__img{
-        display: block;
-    }
-    .card__social
-    {
-        display: block;
-    }
 
-}
