@@ -1,91 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Profile Card</title>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="card">
-			<div class="card__img">
-				<img src="bull.jpg" alt="" />
-			</div>
-			<h2>Phạm Văn Huy</h2>
-			<p>Bull</p>
-			<div class="card__social">
-				<a target="_black" href="https://www.facebook.com/mavanhuy30">
-					<i class="fab fa-facebook-f"></i>
-				</a>
-				<a target="_black" href="https://www.youtube.com">
-					<i class="fab fa-youtube"></i>
-				</a>
-				<a target="_black" href="https://www.tiktok.com">
-					<i class="fab fa-tiktok"></i>
-				</a>
-				<a target="_black" href="https://github.com">
-					<i class="fab fa-github"></i>
-				</a>
-			</div>
-			<button>Contact me</button>
-		</div>
-		<div class="card">
-			<div class="card__img">
-				<img src="mieu.jpg" alt="" />
-			</div>
-			<h2>Mai Trung Tiến</h2>
-			<p>Mi Miêu</p>
-			<div class="card__social">
-				<a target="_black" href="https://www.facebook.com/anionzo">
-					<i class="fab fa-facebook-f"></i>
-				</a>
-				<a target="_black" href="https://www.youtube.com">
-					<i class="fab fa-youtube"></i>
-				</a>
-				<a target="_black" href="https://www.tiktok.com">
-					<i class="fab fa-tiktok"></i>
-				</a>
-				<a target="_black" href="https://github.com">
-					<i class="fab fa-github"></i>
-				</a>
-			</div>
-			<button>Contact me</button>
-		</div>
-		<div class="card">
-			<div class="card__img">
-				<img src="dat (1).jpg" alt="" />
-			</div>
-			<h2>Vũ Ngô Đạt</h2>
-			<p>Fullstack Developer</p>
-			<div class="card__social">
-				<a target="_black" href="https://www.facebook.com/2002vnd">
-					<i class="fab fa-facebook-f"></i>
-				</a>
-				<a target="_black" href="https://www.youtube.com">
-					<i class="fab fa-youtube"></i>
-				</a>
-				<a target="_black" href="https://www.tiktok.com">
-					<i class="fab fa-tiktok"></i>
-				</a>
-				<a target="_black" href="https://github.com">
-					<i class="fab fa-github"></i>
-				</a>
-			</div>
-			<button>Contact me</button>
-		</div>
-	</body>
+    <head>
+        <title>Đăng ký thành viên mới</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./css/choose.css">    </head>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <body>
+        
+        <main>
+            <div class="container">
+                <div class="register-form">
+                    <form action="" method="post">
+                        <h1 >Đăng ký thành viên mới</h1>
+                        <div class="input-box">
+
+                            <input type="text" placeholder="Nhập họ và tên ">
+                        </div>
+                        <div class="input-box">
+
+                            <input type="text" placeholder="Nhập mã số sinh viên ">
+                        </div>
+                        <div class="input-box">
+
+                            <input type="text" placeholder="Số di động hoặc email ">
+                        </div>
+                        <div class="input-box">
+
+                            <input type="text" placeholder="Lớp ">
+                        </div>
+                        <form action="" method="post">
+                            <div class="g-recaptcha" data-sitekey="6Lf3qUofAAAAAPBaC24XqvP2d_fTNdF8RSthenXz
+
+                            "></div>                        
+                          </form>   
+                        <div class="btn-box">
+                            <button type="submit">
+                                Đăng ký
+                            </button>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
