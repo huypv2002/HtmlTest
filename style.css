@@ -1,9 +1,9 @@
 .container{
     width: 100%;
     max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 700px;
+    height: 800px;
+    background-image: linear-gradient(to bottom right, blue, purple);
+    padding-top:  20px;
 }
 .col-6{
     float: left;
@@ -15,9 +15,13 @@
 .clear{
     clear: both;
 }
-main{
-    background-image: linear-gradient(to bottom right, blue, purple);
-    background-size: 100% 100%;
+
+#text{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Cambria';
 
 }
 h1{
@@ -29,7 +33,7 @@ h1{
 
 .register-form{
     width: 100%;
-    max-width: 480px;
+    max-width: 600px;
     height: 600px;
     margin: 20px auto;
     background-color: #ffffff;
@@ -40,16 +44,24 @@ h1{
 
 .input-box{
     margin-bottom: 10px;
-}
-.input-box input[type='text'],
-.input-box input[type='password'],
-.input-box input[type='date']{
-    width: 100%;
+    width: 580px;
     border: 1px solid #cccccc;
     outline: none;
     font-size: 16px;
     display: inline-block;
-    height: 38px;
+    height: 50px;
+    color: #666666;
+
+}
+.input-box input[type='text'],
+.input-box input[type='password'],
+.input-box input[type='date']{
+    width: 580px;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 50px;
     color: #666666;
 }
 .input-box select{
@@ -84,12 +96,19 @@ h1{
 }
 .btn-box button{
     border-radius: 2px;
-    background-color: green;
+    background-color: rgb(0, 146, 214);
     color: white;
     border: none;
     outline: none;
     font-size: 20px;
     padding: 10px;
+    width: 600px;
+}
+.text1{
+    color: gray;
+    text-align: center;
+    font-size:18px;
+    padding: 15px;
 }
 .fb9 {
     border: 1px solid #3366FF;
@@ -97,3 +116,8 @@ h1{
     width:150px;
     height:30px;
   }
+.unica{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
